@@ -1,0 +1,143 @@
+
+@font-face {
+    font-family: "Zelda";
+    src: url('../fonts/Triforce.ttf');  
+
+}
+
+@font-face {
+font-family: "NES";
+    src: url('../fonts/ReturnofGanon.ttf'); 
+}
+
+
+.rupeesection {
+    font-family: "Zelda";
+
+}
+.Number {
+    font-family: "Zelda";
+    text-align: center;
+    border: black 3px;
+    float: left;
+ 
+    width: 30%;
+
+}
+.NumberHead {
+    font-family:"Zelda";
+}
+#instructions {
+    font-family: "Zelda";
+
+}
+
+.col-sm-3 {
+    font-family: "Zelda";
+    clear: both;
+    background-color: #5E964E;
+}
+
+.left {
+    float: left;
+    margin: auto;
+    background-color: #5E964E;
+    font-size: 40px;
+}
+
+.center{
+    float: right;
+    margin: auto;
+    background-color: #5E964E;
+    font-size: 40px;
+}
+
+.right {
+    float: right;
+    margin: auto;
+    background-color: #5E964E;
+    font-size: 40px;
+}
+
+#yourScore, #wins, #losses {
+    font-size: 24px;
+    background-color: #5E964E;
+}
+
+p {
+    font-family: "NES";
+    font-size: 26px;
+}
+.col-sm-4 {
+    text-align: center;
+    font-family: "Zelda";
+   
+    background-color: #5E964E;
+    
+    width:30%;
+}
+#randomNumber {
+    font-size: 60px;
+    font-family: "NES";
+    color:black;
+}
+
+    .page-header {
+        
+        font-family: "Zelda";
+        background-color: #5E964E;
+    }
+    .title {
+        font-size: 47px;
+        color: red;
+        background-color: #5E964E;
+    }
+
+    .nes
+        font-family: "NES";
+    }
+    #Number {
+        margin: 20px;
+        text-align: center;
+        width: 25%;
+    
+    }
+    .rupeesection {
+        float:left;
+        width: 70%;
+        text-align: center;
+        font-family: "Zelda";
+    }
+
+
+    .body {
+        margin: 25px;
+        background-color: #5E964E;
+    }
+    
+    .rupees {
+        height: 120px;
+        width: 60px;
+        margin: 30px;
+        align-content: center;
+    }
+    .icon-bar {
+        align-content: center;
+    }
+
+
+
+
+.page-header {
+    
+    font-size: 30px;
+    text-align: center;
+    width: 85%;
+    margin: auto;
+   
+    border-BOTTOM: none;
+}
+
+
+
+
