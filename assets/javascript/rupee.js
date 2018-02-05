@@ -9,6 +9,7 @@ $( document ).ready(function(){
     
     $('#randomNumber').text(randomNumber);
     
+    var purpleNum= Math.floor(Math.random()*11+1)
     var blueNum= Math.floor(Math.random()*11+1)
     var greenNum= Math.floor(Math.random()*11+1)
     var redNum= Math.floor(Math.random()*11+1)
@@ -29,6 +30,7 @@ $( document ).ready(function(){
         greenNum= Math.floor(Math.random()*11+1);
         redNum= Math.floor(Math.random()*11+1);
         yellowNum= Math.floor(Math.random()*11+1);
+        purpleNum= Math.floor(Math.random()*11+1);
         userTotal= 0;
         $('#yourScore').text(userTotal);
         } 
@@ -97,7 +99,7 @@ $( document ).ready(function(){
         })
 
         $('#purple').on ('click', function(){
-          userTotal = userTotal + blueNum;
+          userTotal = userTotal + purpleNum;
           console.log("New userTotal= " + userTotal);
           $('#yourScore').text(userTotal); 
                 
