@@ -95,6 +95,19 @@ $( document ).ready(function(){
             loser();
           }
         })
+
+        $('#purple').on ('click', function(){
+          userTotal = userTotal + blueNum;
+          console.log("New userTotal= " + userTotal);
+          $('#yourScore').text(userTotal); 
+                
+              if (userTotal == randomNumber){
+                winner();
+              }
+              else if ( userTotal > randomNumber){
+                loser();
+              }   
+        })  
     })
      
     
