@@ -89,9 +89,10 @@ p {
         border-bottom: none;
     }
     .title {
-        font-size: 47px;
+        font-size: 55px;
         color: red;
         background-color: #5E964E;
+        text-align: center;
     }
 
     .nes
@@ -144,6 +145,10 @@ p {
 
 #yourScore {
     font-size: 35px;
+}
+
+#losses {
+    font-size:35px;
 }
 
 
