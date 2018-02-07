@@ -53,6 +53,7 @@ $( document ).ready(function(){
       userTotal = userTotal + blueNum;
       console.log("New userTotal= " + userTotal);
       $('#yourScore').text(userTotal); 
+    
             
           if (userTotal == randomNumber){
             winner();
